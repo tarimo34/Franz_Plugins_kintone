@@ -1,0 +1,23 @@
+{
+  "name": "kintone",
+  "version": "1.0.0",
+  "description": "kintone is an enterprise rapid application development platform and is provided by Cybozu, a collaborative-software development company.",
+  "main": "index.js",
+  "author": "Antbear-creates,LLC. <morita.satoshi@antbear-creates.jp>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://{teamID}.cybozu.com/",
+    "serviceName": "kintone",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
